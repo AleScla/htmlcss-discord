@@ -109,7 +109,7 @@ header{
 .hdr-container{
     width:80%;
     margin: auto;
-    display:flex;
+    display:flex
 }
           
 
@@ -143,6 +143,8 @@ a{
     background-image: url(../img/jumbo.png);
     background-size:cover;
     background-position:center;
+    min-height:700px;
+    display:flex;
 
 }
 
