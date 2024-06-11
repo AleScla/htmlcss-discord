@@ -1,0 +1,214 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+/* general */
+
+html{
+    font-family: "Roboto", sans-serif;
+}
+
+ul{
+    list-style: none;   
+    align-content:center;
+}
+
+nav ul > li{
+    display:inline-block;
+    padding: 0 10px;
+}
+
+nav{
+    width:60%;
+    display:flex;
+    justify-content:center;
+    
+}
+
+.bg-white{
+    background-color:white;
+    color:black;
+    font-size:0.8rem;
+}
+
+.btn{
+    padding:8px 10px;
+    border-radius:20px;
+}
+
+
+
+/* header */
+header{
+    width:100%;
+    padding:20px;
+    background-color:#255EE9;
+}
+
+.hdr-container{
+    width:80%;
+    margin: auto;
+    display:flex;
+}
+          
+
+.login, .logo-container{
+    flex-grow:1;
+    padding:10px;
+}
+
+a{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+}
+
+
+.login{
+    text-align:right;
+}
+
+/* main */
+.row{
+    min-height:500px;
+    width:100%;
+    padding-top:40px;
+}
+
+.box{
+    width:60%;
+    min-height:400px;
+    margin:auto;
+}
+
+.box-container{
+    width:80%;
+    height:80%;
+    margin:auto;
+    display:flex;
+}
+
+.blue-box, .pink-box{
+    min-height:400px;
+    flex-grow:1;
+
+}
+
+.blue-box{
+    flex-grow:2;
+}
+
+.bigger-row{
+    min-height:1000px;
+    width:100%;
+    display:flex;
+    justify-content:center;
+}
+.greenbox {
+    background-color:green;
+    min-height: 900px;
+    width:80%;
+    align-self:center;
+
+}
+
+.pink-box.bottom{
+    flex-grow:2;
+}
+
+.blue-box.bottom{
+    flex-grow:1;
+}
+
+.black{
+    background-color:rgba(0, 0, 0, 0.70);
+}
+
+footer{
+    width:100%;
+    min-height:100px;
+    margin-top:2px;
+    display:flex;
+    align-items:flex-end;
+    justify-content:center;
+}
+
+.footer-container{
+    width:80%;
+    min-height:80px;
+    display:flex;
+    justify-content:space-between; 
+    align-items:center;
+}
+
+.footer-container > *{
+    padding:5px;
+    flex-grow:0;
+}
+
+button:hover{
+    cursor:pointer;
+}
+
+
+
+
+
+
+
+/* debug */
+/* .debug header {
+    background-color:aqua;
+} */
+
+/* .debug header > .hdr-container{
+    background-color:orange;
+
+} */
+
+/* .debug .hdr-container >*{
+    border: 1px dashed black;
+} */
+
+.debug main >.blue{
+    background-color:blue;
+}
+
+.debug main .row > .box{
+    background-color:palevioletred;
+    border:1px dashed black;
+}
+
+.debug main .row > .box-container > .blue-box{
+    background-color:turquoise;
+
+}
+
+.debug main .row > .box-container > .pink-box{
+    background-color:pink;
+    border:1px dashed black;
+}
+
+.debug main >.lightgrey{
+    background-color:lightgrey;
+}
+
+.debug main .row > .box-container >*{
+    border:1px dashed black;
+}
+
+.debug main .bigger-row > .greenbox{
+    background-color:green;
+    border:1px dashed black;
+}
+
+.debug footer > .footer-container{
+    background-color:aqua;
+}
+
+.debug footer > .footer-container *{
+    background-color:pink;
+    border:1px dashed black;
+
+}
