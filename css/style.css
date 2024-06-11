@@ -63,7 +63,7 @@ p{
 
 h2{
     font-size:30px;
-    padding:10px 20px;
+    padding:20px;
 }
 
 .lightgrey{
@@ -213,29 +213,28 @@ button:hover{
 
 
 
-
 /* debug */
-/* .debug header {
+.debug header {
     background-color:aqua;
 } */
 
-/* .debug header > .hdr-container{
+.debug header > .hdr-container{
     background-color:orange;
 
-} */
+}
 
-/* .debug .hdr-container >*{
+.debug .hdr-container >*{
     border: 1px dashed black;
-} */
+}
 
-/* .debug main >.blue{
+.debug main >.blue{
     background-color:blue;
-} */
+}
 
-/* .debug main .row > .box{
+.debug main .row > .box{
     background-color:palevioletred;
     border:1px dashed black;
-} */
+} 
 
 .debug main .row > .box-container > .blue-box{
     background-color:turquoise;
@@ -247,9 +246,9 @@ button:hover{
     border:1px dashed black;
 }
 
-/* .debug main >.lightgrey{
+.debug main >.lightgrey{
     background-color:lightgrey;
-} */
+}
 
 .debug main .row > .box-container >*{
     border:1px dashed black;
@@ -268,5 +267,5 @@ button:hover{
     background-color:pink;
     border:1px dashed black;
 
-}
+} */
 
