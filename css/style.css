@@ -219,8 +219,8 @@ footer{
     margin:auto;
     padding-top:30px;
 }
-.column2-5{
-    width:calc((100 / 5) * 2)
+.column1-3{
+    width:calc((100% / 3))
 }
 
 .language > *{
@@ -242,12 +242,12 @@ footer{
     font-size:1.2rem;
 }
 
-
-
-.column3-5{
+.column2-3{
     display:flex;
-    width:calc((100 / 5) * 3)
+    width:calc((100% / 3) * 2)
 }
+
+
 
 .ftr-container-bottom{
     width:60%;
@@ -256,6 +256,15 @@ footer{
     justify-content:space-between; 
     align-items:center;
     margin:auto;
+}
+
+.column1-4{
+    width:calc(100% / 4);
+
+}
+
+.column1-4 > ul > li > a{
+    padding:10px;
 }
 
 
