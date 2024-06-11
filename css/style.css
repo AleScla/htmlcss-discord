@@ -66,9 +66,26 @@ h2{
     padding:20px;
 }
 
+h3{
+    font-size:25px;
+    padding:20px;
+}
+
 .lightgrey{
     background-color:#EDEDED;
     
+}
+
+.txt-align-cntr{
+    text-align:center;
+}
+
+.black{
+    background-color:rgba(0, 0, 0, 0.70);
+}
+
+.bg-blue{
+    background-color:#7289DA;
 }
 
 
@@ -162,12 +179,14 @@ a{
     display:flex;
     justify-content:center;
 }
-.greenbox {
-    background-color:green;
+.bigger-box {
     min-height: 900px;
     width:80%;
-    align-self:center;
-
+}
+.download{
+    background-image:url(../img/stars.svg);
+    background-repeat:no-repeat;
+    background-position:center;
 }
 
 .text-box.bottom{
@@ -178,9 +197,7 @@ a{
     flex-grow:1;
 }
 
-.black{
-    background-color:rgba(0, 0, 0, 0.70);
-}
+
 
 footer{
     width:100%;
@@ -207,6 +224,9 @@ footer{
 button:hover{
     cursor:pointer;
 }
+
+
+
 
 
 
