@@ -50,6 +50,7 @@ p{
     line-height:2rem;
     font-size:1.1rem;
     margin-bottom:20px;
+    padding:20px;
 }
 
 .small-txt{
@@ -58,6 +59,11 @@ p{
 
 .bg-black{
     background-color:#23272A;
+}
+
+h2{
+    font-size:30px;
+    padding:10px 20px;
 }
 
 
@@ -93,6 +99,7 @@ a{
 }
 
 
+
 /* main */
 
 
@@ -118,20 +125,20 @@ a{
 
 
 .box-container{
-    width:80%;
+    width:60%;
     height:80%;
     margin:auto;
     display:flex;
 }
 
-.blue-box, .pink-box{
+.img-box, .text-box{
     min-height:400px;
     flex-grow:1;
-
 }
 
-.blue-box{
+.img-box{
     flex-grow:2;
+    text-align:right;
 }
 
 .bigger-row{
@@ -148,11 +155,11 @@ a{
 
 }
 
-.pink-box.bottom{
+.text-box.bottom{
     flex-grow:2;
 }
 
-.blue-box.bottom{
+.img-box.bottom{
     flex-grow:1;
 }
 
