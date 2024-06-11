@@ -29,12 +29,35 @@ nav{
 .bg-white{
     background-color:white;
     color:black;
-    font-size:0.8rem;
 }
 
 .btn{
-    padding:8px 10px;
+    padding:12px 12px;
     border-radius:20px;
+    margin: 0 10px;
+}
+
+h1{
+    padding:20px;
+    font-size:40px;
+}
+
+.white-txt{
+    color:white;
+}
+
+p{
+    line-height:2rem;
+    font-size:1.1rem;
+    margin-bottom:20px;
+}
+
+.small-txt{
+    font-size:0.8rem;
+}
+
+.bg-black{
+    background-color:#23272A;
 }
 
 
@@ -69,18 +92,30 @@ a{
     text-align:right;
 }
 
+
 /* main */
+
+
 .row{
-    min-height:500px;
     width:100%;
-    padding-top:40px;
+    padding:40px;
+    min-height:500px;
+}
+
+.bg-img{
+    background-image: url(../img/jumbo.png);
+    background-size:cover;
+    background-position:center;
+
 }
 
 .box{
     width:60%;
-    min-height:400px;
     margin:auto;
+    text-align:center;
 }
+
+
 
 .box-container{
     width:80%;
@@ -171,14 +206,14 @@ button:hover{
     border: 1px dashed black;
 } */
 
-.debug main >.blue{
+/* .debug main >.blue{
     background-color:blue;
-}
+} */
 
-.debug main .row > .box{
+/* .debug main .row > .box{
     background-color:palevioletred;
     border:1px dashed black;
-}
+} */
 
 .debug main .row > .box-container > .blue-box{
     background-color:turquoise;
